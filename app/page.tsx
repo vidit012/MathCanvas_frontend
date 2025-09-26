@@ -236,7 +236,7 @@ const CanvasComponent = () => {
     if (canvas) {
       const response = await axios({
         method: "POST",
-        url: "https://calculator-backend-qsmk.onrender.com/calculate",
+        url: "https://mathcanvas-backend.onrender.com/",
         data: {
           image: canvas.toDataURL("image/png"),
           dict_of_vars: dictofvars,
